@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin-top: 0;
+    /* display: inline-block; */
+    font-family: 'Sacramento', cursive;
+    /* font-size: 562.5%; 100% is 16px so for 90px we will do (90/16)*100 = 562.5 */
+    font-size: 5.625rem; /* 16px = 100% = 1em  so 90px will be (90/16) = 5.625*/ 
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.first {
+    background-color: #57C5B6;
+    position: relative;
+    padding-top: 150px;
+
+}
+.second {
+    /* float: left; */
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.third {
+    /* float: left; */
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.topCloud {
+    position: absolute;
+    margin-left: 150px;
+    top:100px
+}
+.bottomCloud {
+    position: absolute;
+    left: 150px;
+}
+hr {
+    border-style: none;
+    height: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    width: 5%;
+    border-width: 5px;
+}
+.profile-img {
+    height: 10%;
+    width: 20%;
+    border-radius: 100%;
+}
